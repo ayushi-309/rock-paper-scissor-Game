@@ -19,6 +19,7 @@ const drawGame = () => {
     msg.style.backgroundColor = "rgb(30, 7, 52)";
 };
 
+
 const showWinner = (userWin, userChoice, compChoice) => {
     if(userWin) {
         userScore++;
